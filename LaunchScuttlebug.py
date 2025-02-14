@@ -35,7 +35,7 @@ def main(user, pw, folder):
     # enter username
     
     xpath_input_username = '//*[@id="account-module"]/div[3]/div[3]/div/div[2]/div/div[2]/div[1]/div/div[2]/form/div[2]/div/input'
-    wait.until(EC.visibility_of_element_located((By.XPATH, xpath_username)))
+    wait.until(EC.visibility_of_element_located((By.XPATH, xpath_input_username)))
     input_username = driver.find_element(By.XPATH, xpath_input_username)
     input_username.send_keys(user)
     
