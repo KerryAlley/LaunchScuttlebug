@@ -23,7 +23,7 @@ from selenium.webdriver.support.expected_conditions import presence_of_element_l
 
 
 def main(user, pw, folder):
-    path = os.path.join(folder, 'geckodriver.exe')
+    #path = os.path.join(folder, 'geckodriver.exe')
     driver = webdriver.Firefox()
     #Set up drivers for player profiles and tables
     bga_link = 'https://boardgamearena.com/account'
